@@ -1,9 +1,18 @@
-# NoSQL_project
-NoSQL project utilizing a combination of Python and NoSQL to retrieve traffic accident data from an API, focusing specifically on the city of Zurich conducted by Matthias De Paolis
+# Bicycle Accidents Zurich
 
-The assigment includes the following tasks:
-1. Find an "interesting" public and free dataset that can be downloaded via API.
-2. Import the data into your MongoDB cluster from a Python Jupyter Notebook.
-3. Visualize the structure of your data and include it as image in your Jupyter Notebook.
-4. Conduct an in-depth analysis in Python using various Mongo Aggregation Pipelines.
-5. Export your Analysis into a well structured and formatted PDF.
+SUMMARY
+The rise in accidents involving cyclists in Zurich over the past ten years has led to increased calls for the development of safer and more robust bicycle paths. The data showed a steady increase in the number of accidents involving cyclists, with the number of accidents more than doubling in the past decade.
+The goal of this research is to examine patterns in traffic accidents involving cyclists in Zurich.
+This analysis provides an in-depth understanding of the patterns and trends in accidents involving cyclists in Zurich and can inform policy decisions to improve the safety of cyclists on the road.
+
+The ELT pipeline is based on a mixture of Python and NoSQL.
+
+This project was conducted by Matthas De Paolis.
+
+DATA
+The data is extracted from two different APIs the Dog API and the Dog Breed API. For that you will need to configure your own API Keys. Additionally there are 2 flat files (CSV) which are extracted from a Open Data Platform.
+
+USAGE
+To run this project a Mongo DB has to be configured and the connection setup in the chapter "Setting API and Database details" has to be adapted accordingly to your own MongoDB. In particular, the CNX_String must be replaced as defined in the script.
+
+The script requires the user to have Jupyter Notebook installed on his / her computer. Another option is to open the .ipynb file on Google Colab.
