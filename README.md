@@ -1,6 +1,6 @@
 # Bicycle Accidents Zurich
 
-SUMMARY
+## SUMMARY
 The rise in accidents involving cyclists in Zurich over the past ten years has led to increased calls for the development of safer and more robust bicycle paths. The data showed a steady increase in the number of accidents involving cyclists, with the number of accidents more than doubling in the past decade.
 The goal of this research is to examine patterns in traffic accidents involving cyclists in Zurich.
 This analysis provides an in-depth understanding of the patterns and trends in accidents involving cyclists in Zurich and can inform policy decisions to improve the safety of cyclists on the road.
