@@ -9,10 +9,10 @@ The ELT pipeline is based on a mixture of Python and NoSQL.
 
 This project was conducted by Matthas De Paolis.
 
-DATA
+## DATA
 The data is extracted from two different APIs the Dog API and the Dog Breed API. For that you will need to configure your own API Keys. Additionally there are 2 flat files (CSV) which are extracted from a Open Data Platform.
 
-USAGE
+## USAGE
 To run this project a Mongo DB has to be configured and the connection setup in the chapter "Setting API and Database details" has to be adapted accordingly to your own MongoDB. In particular, the CNX_String must be replaced as defined in the script.
 
 The script requires the user to have Jupyter Notebook installed on his / her computer. Another option is to open the .ipynb file on Google Colab.
